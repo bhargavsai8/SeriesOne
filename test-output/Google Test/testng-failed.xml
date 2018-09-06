@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Google Test]">
+  <listeners>
+    <listener class-name="Listeners.TestListener"/>
+    <listener class-name="Listeners.AnnontationTransform"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.generalone.SeriesOne.test.HomePageTest">
+        <methods>
+          <include name="initAll"/>
+          <include name="quitAll"/>
+          <include name="searchSomething"/>
+        </methods>
+      </class> <!-- com.generalone.SeriesOne.test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Google Test] -->
